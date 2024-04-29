@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap");
+:root { --main-color: #f4c430; }
+body { }
+.wrapper { position: relative; }
+.viewBtn { display: flex; justify-content: center; margin: 50px 0px 0px; }
+.viewBtn a { background: var(--main-color); font-family: Poppins; font-weight: 600; font-size: 14px; line-height: 28px; text-align: center; color: rgb(255, 255, 255); padding: 7px 30px; text-decoration: none; }
+.myHeading { text-align: center; }
+.myHeading h2 { font-size: 46px; font-family: playfair; line-height: 56px; color: rgb(0, 0, 0); font-weight: 700; }
+.myHeading h2 span { color: var(--main-color); }
+.myHeading figure { }
+.myHeading figure img { }
+.navbar { }
+.navbar .topBar { }
+.navbar .topBar {position: relative;padding: 10px 0px;background: var(--main-color);display: flex;align-items: center;z-index: 9;}
+.topBarContent { display: flex; justify-content: space-between; align-items: center; height: 15px; }
+.topBarContent .topBarUl { margin: 0px; display: flex; padding: 0px; }
+.topBarContent .topBarUl li { display: flex; }
+.topBarContent .topBarUl li figure { }
+.topBarContent .topBarUl li figure img { }
+.topBarContent .topBarUl li strong { margin-right: 20px; font-family: Poppins; font-weight: normal; font-size: 14px; line-height: 24px; color: rgb(255, 255, 255); margin-left: 8px; }
+.topBarContent .social {margin: 0;display: flex;padding: 0;}
+.topBarContent .social li {padding: 0 15px;list-style-type: none;}
+.topBarContent .social li figure { }
+.topBarContent .social li figure a { }
+.topBarContent .social li figure a img { }
+.topBarContent .social li strong { }
+.myHeader { position: absolute; z-index: 2147483647; width: 100%; }
+.myHeader .mainHeader { z-index: 999; height: 60px; display: flex; border-radius: 5px; justify-content: space-between; }
+.myHeader .mainHeader .logo { }
+.myHeader .mainHeader .logo figure { }
+.myHeader .mainHeader .logo figure a {font-family: poppins;font-size: 23px;line-height: 56px;color: rgb(255, 255, 255);text-decoration: none;}
+.myHeader .mainHeader .myNav { }
+.myHeader .mainHeader .myNav ul { display: flex; }
+.myHeader .mainHeader .myNav ul li { padding: 15px; list-style-type: none; }
+.myHeader .mainHeader .myNav ul li a { font-family: Poppins; font-weight: normal; font-size: 14px; line-height: 28px; text-align: left; color: rgb(255, 255, 255); text-decoration: none; }
+.myHeader .mainHeader .myNav ul li .btnEnuiry { }
+.headerSlider { position: relative; top: -38px; }
+.headInq { left: 0px; z-index: 9999; position: absolute; top: 0px; height: 100%; display: flex; align-items: center; right: 0px; }
+.headerSlider .headInq .formInqCard { }
+.headerSlider .bannerHeader { }
+.headerSlider .bannerHeader figure { }
+.headerSlider .bannerHeader figure img { width: 100%; object-fit: cover; }
+.headerSlider .headerGrid { display: flex; justify-content: space-between; align-items: center; }
+.formInquiry { background: rgb(255, 255, 255); width: 67%; padding: 34px; }
+.formInquiry h5 { font-family: Poppins; font-weight: 600; font-size: 24px; text-align: center; }
+.formInquiry p { font-family: Poppins; font-weight: 500; font-size: 14px; line-height: 24px; color: rgb(153, 153, 153); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin: 10px 0px 24px; }
+.headerSlider .formCard { }
+.headerSlider .formCard form { }
+.headerSlider .formCard form .form-group { }
+.headerSlider .formCard form .form-group input { width: 100%; height: 50px; border-radius: 2px; background: rgb(249, 249, 249); border: 1px solid rgb(236, 236, 236); padding: 0px 6px 0px 12px; }
+.headerSlider .formCard .btn-started { width: 100%; height: 50px; border-radius: 2px; background: var(--main-color); border: none; font-size: 18px; font-weight: 500; }
+.headerSlider .formCard form .form-group textarea { width: 100%; height: 100px; border-radius: 2px; background: rgb(249, 249, 249); border: 1px solid rgb(236, 236, 236); padding: 6px 0px 0px 12px; outline: none; }
+.headerSlider .cardAstro { }
+.headerSlider .cardAstro h3 { margin: 0px 0px 30px; font-weight: 700; font-family: playfair; font-size: 52px; color: rgb(255, 255, 255); line-height: 62px; flex-direction: column; display: flex; }
+.headerSlider .cardAstro h3 span { color: var(--main-color); font-family: playfair; }
+.headerSlider .cardAstro p { font-family: Poppins; color: rgb(255, 255, 255); font-size: 16px; font-weight: 100; line-height: 26px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; width: 77%; }
+.headerSlider .cardAstro p a { }
+.headerSlider .cardAstro .numCard { width: 50%; display: flex; align-items: center; background: white; border-radius: 40px; margin: 30px 0px 0px; }
+.headerSlider .cardAstro .numCard figure { padding: 5px; }
+.headerSlider .cardAstro .numCard figure img { width: 100%; object-fit: cover; }
+.headerSlider .cardAstro .numCard h6 { font-family: Poppins; color: rgb(0, 0, 0); font-size: 24px; font-weight: 600; margin-left: 10px; }
+.consultUs { margin: 80px 0px; }
+.consultUs .myHeading { text-align: center; }
+.consultUs .gridConsult { display: grid; grid-template-columns: repeat(4, 2fr); text-align: center; margin-top: 80px; gap: 73px 25px; }
+.consultUs .consultCard { text-align: center; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px; padding: 25px; height: 249px; }
+.consultUs .consultCard .imgCar { position: relative; }
+.consultUs .consultCard .imgCar figure { height: 90px; width: 90px; border: 1px solid var(--main-color); border-radius: 78px; display: flex; align-items: center; justify-content: center; margin: 0px auto; position: absolute; top: -75px; right: 0px; background: white; left: 0px; }
+.consultUs .consultCard .imgCar figure img { }
+.consultUs .consultCard h4 { font-size: 22px; font-weight: 500; font-family: playfair; line-height: 32px; color: rgb(0, 0, 0); margin-top: 31px; }
+.consultUs .consultCard p { font-size: 16px; line-height: 26px; font-family: poppins; color: rgb(126, 126, 126); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.consultUs .consultCard .readMore { margin-top: 20px; }
+.consultUs .consultCard .readMore a { display: flex; justify-content: center; color: var(--main-color); font-family: poppins; font-weight: 500; line-height: 26px; font-size: 18px; text-decoration: none; }
+.consultUs .consultCard .readMore a figure { margin-left: 9px; }
+.consultUs .consultCard .readMore a figure img { }
+.rashiRatn { margin-top: 60px; }
+.rashiRatn .ratnGrid {display: grid;grid-template-columns: repeat(4, 2fr);gap: 20px;margin-top: 30px;}
+.rashiRatn .ratnCard { background: rgba(255, 255, 255, 0.99); border: 1px solid rgb(230, 230, 230); text-align: center; }
+.rashiRatn .ratnCard figure { padding: 17px; }
+.rashiRatn .ratnCard figure img { object-fit: cover; width: 169px; height: 127px; }
+.rashiRatn .ratnCard .ratnText { background: rgb(249, 249, 249); padding: 17px 17px 17px 25px; text-align: left; }
+.rashiRatn .ratnCard .ratnText h4 { }
+.rashiRatn .ratnCard .ratnText p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-family: Poppins; font-weight: normal; font-size: 14px; line-height: 24px; color: rgb(126, 126, 126); }
+.rashiRatn .ratnCard .ratnText a { display: flex; font-family: Poppins; font-weight: 500; font-size: 16px; color: var(--main-color); }
+.rashiRatn .ratnCard .ratnText a figure { margin-left: 10px; padding: 0px; }
+.rashiRatn .ratnCard .ratnText a figure img { height: 58%; width: 7px; }
+.rashiPhal { margin-top: 80px; background: var(--main-color); padding: 80px 0px; }
+.rashiPhal .myHeading { }
+.rashiPhal .myHeading h2 { }
+.rashiPhal .rashiGrid { display: grid; grid-template-columns: repeat(6, 2fr); gap: 15px; margin-top: 30px; }
+.rashiPhal .rashiCard { box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px; background: rgb(255, 255, 255); text-align: center; padding: 17px; }
+.rashiPhal .rashiCard a { cursor: pointer; text-decoration: none; }
+.rashiPhal .rashiCard a figure { }
+.rashiPhal .rashiCard a figure img { }
+.rashiPhal .rashiCard a strong { font-family: Poppins; font-weight: 500; font-size: 22px; line-height: 32px; color: var(--main-color); text-decoration: none; }
+.yantra { padding: 80px 0px; }
+.yantra .yantraGrid { display: grid; grid-template-columns: repeat(4, 2fr); gap: 25px; margin-top: 30px; }
+.yantra .yantraCard { background: rgb(255, 255, 255); padding: 13px 17px 25px; filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 0px 3px); }
+.yantra .yantraCard figure { }
+.yantra .yantraCard figure img { width: 100%; object-fit: cover; }
+.yantra .yantraCard .yantraText { }
+.yantra .yantraCard .yantraText h5 { font-family: "Playfair Display"; font-weight: normal; font-size: 22px; line-height: 32px; text-align: left; color: rgb(9, 9, 9); }
+.yantra .yantraCard .yantraText p { font-family: Poppins; font-weight: normal; font-size: 14px; line-height: 24px; text-align: left; color: rgb(126, 126, 126); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.yantra .yantraCard .yantraText a { font-family: Poppins; font-weight: 500; font-size: 16px; text-align: left; color: rgb(244, 196, 48); text-decoration: none; display: flex; margin-top: 20px; }
+.yantra .yantraCard .yantraText a figure { margin-left: 10px; }
+.yantra .yantraCard .yantraText a figure img { }
+.ourServices { background: rgb(247, 247, 247); padding: 80px 0px; }
+.ourServices .serviceGrid { display: grid; grid-template-columns: repeat(4, 2fr); margin-top: 30px; gap: 20px; }
+.ourServices .serviceCard { background: rgb(255, 255, 255); padding: 13px; }
+.ourServices .serviceCard figure { }
+.ourServices .serviceCard figure img { width: 100%; object-fit: cover; }
+.ourServices .serviceCard h5 { font-family: "Playfair Display"; font-weight: normal; font-size: 22px; line-height: 32px; text-align: unset; color: rgb(9, 9, 9); }
+.ourServices .serviceCard p { font-family: Poppins; font-weight: normal; font-size: 14px; line-height: 24px; color: rgb(126, 126, 126); }
+.ourServices .serviceCard a { font-family: Poppins; font-weight: 500; font-size: 16px; text-align: left; color: rgb(244, 196, 48); text-decoration: none; display: flex; margin-top: 20px; }
+.ourServices .serviceCard a figure { margin-left: 10px; }
+.ourServices .serviceCard .serviceText { padding: 15px; }
+.ourServices .serviceCard a figure img { }
+.ofGod { background: url("../images/galaxy-night-view.png") center center / cover; height: 500px; align-items: center; justify-content: center; display: flex; }
+.ofGod .myHeading { text-align: center; }
+.ofGod .myHeading h2 { color: rgb(255, 255, 255); }
+.ofGod .ofGodText { margin-top: 30px; }
+.ofGod .ofGodText p { font-family: Poppins; font-weight: normal; font-size: 24px; line-height: 44px; text-align: center; color: rgb(255, 255, 255); }
+.panditJi .aboutSec { position: relative;  animation: myanimation 10s infinite; }
+
+
+@keyframes myanimation {
+  0% {
+    background-color: rgb(132 0 0 / 80%)
+  }
+  20% {
+    background-color: rgb(16 0 132 / 57%)
+  }
+  50% {
+    background-color: rgb(126 0 132 / 80%)
+  }
+  80% {
+    background-color: rgb(0 0 0 / 80%)
+  }
+  100% {
+    background-color: rgb(132 0 0 / 80%)
+  }
+}
+
+
+
+.panditJi .aboutSec::before { content: ""; top: 0px; left: 0px; width: 18%; height: 100%; position: absolute; background: rgb(255, 255, 255); }
+.panditJi .container::before { content: ""; }
+.panditJi { padding: 100px 0px 0px; }
+.panditJi .container { padding: 0px; }
+.panditJi .pandiImg { }
+.panditJi .pandiImg figure { position: relative; top: -60px; }
+.panditJi .pandiImg figure img { width: 100%; object-fit: cover; }
+.panditJi .panditText { padding: 30px 60px 30px 10px; }
+.panditJi .panditText h3 { font-family: "Playfair Display"; font-weight: bold; font-size: 44px; line-height: 56px; text-align: center; color: rgb(255, 255, 255); flex-direction: column; display: flex; }
+.panditJi .panditText figure { display: flex; justify-content: center; }
+.panditJi .panditText figure img { }
+.panditJi .panditText p { margin: 30px 0px 0px; font-family: Poppins; font-weight: 300; font-size: 18px; line-height: 34px; text-align: center; color: rgb(255, 255, 255); }
+.panditJi .bgWh { }
+.panditJi .pandiImg::before { content: ""; }
+.myFooter {position: relative;padding: 100px 0px 0px;background-image: url("../images/bg.png");background-position: initial;background-attachment: initial;background-origin: initial;background-clip: initial;background-color: initial;width: 100%;display: flex;align-items: center;background-repeat: no-repeat;background-size: cover !important;}
+.myFooter::before {
+  top: 0;
+  height: 100%;
+  content: "";
+  background: var(--main-color);
+  width: 40%;
+  position: absolute;
+}
+.myFooter .footerLogo { z-index: 2147483647; }
+.myFooter .footerLogo a { font-family: "Playfair Display"; font-weight: bold; font-size: 30px; line-height: 24px; text-align: left; color: rgb(255, 255, 255); text-decoration: none; }
+.myFooter .footerLogo p {font-family: Poppins;font-weight: normal;font-size: 14px;color: rgb(255, 255, 255);line-height: 24px;margin: 20px 0 0 0;}
+.myFooter .gridGooter {padding: 0 0 0 40px;display: grid;grid-template-columns: repeat(3, 2fr);gap: 25px;}
+.myFooter .footerCard { }
+.myFooter .footerCard h5 { font-family: "Playfair Display"; font-weight: 600; font-size: 26px; line-height: 24px; text-align: left; color: rgb(238, 238, 238); display: flex; }
+.myFooter .footerCard ul { padding: 0px; margin-top: 20px; }
+.myFooter .footerCard ul li { list-style-type: none; margin-top: 7px; }
+.myFooter .footerCard ul li a { width: 84px; height: 20px; font-family: Poppins; font-weight: normal; font-size: 14px; line-height: 24px; color: rgb(203, 203, 203); text-decoration: none; }
+.myFooter .subFooter { border-top: 1px solid rgba(238, 238, 238, 0.3); padding: 10px 0px; display: flex; justify-content: right; margin: 30px 0px 0px; height: auto; }
+.myFooter .subFooter strong a { font-family: poppins; font-weight: normal; font-size: 14px; line-height: 24px; color: var(--main-color); text-decoration: none; }
+.myFooter .subFooter strong { font-family: poppins; font-weight: normal; font-size: 14px; line-height: 24px; text-align: left; color: rgb(255, 255, 255); }
+.inqId { display: none; }
+
+.myFooter .footerBtn {
+  margin: 30px 0 0 0;
+}
+.myFooter .footerBtn a {
+  
+box-shadow: 0px 0px 15px #00000021;
+  
+margin: 22px 0 0 0 !important;
+  
+background: #000;
+  
+font-family: Poppins;
+  
+font-weight: 600;
+  
+font-size: 14px;
+  
+line-height: 28px;
+  
+text-align: center;
+  
+color: rgb(255, 255, 255);
+  
+padding: 7px 30px;
+  
+text-decoration: none;
+}

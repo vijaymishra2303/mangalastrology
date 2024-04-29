@@ -1,0 +1,216 @@
+@media only screen and (max-width: 1199px) {
+    .secBef::before{display: none;}
+    .secImg{right: 0;}
+    .rashiPhal .rashiGrid{grid-template-columns: repeat(4, 2fr);}
+    .rashiRatn .ratnGrid{grid-template-columns: repeat(2, 2fr);}
+    .yantra .yantraGrid{}
+}
+
+@media only screen and (min-width: 992px) {
+    .closeMe{display: none;}
+    .openMenu{display: none;}
+    .respInquiry{display: none;}
+  
+   
+}
+
+@media only screen and (max-width: 991px) {
+    .yantraPageGrid {
+        grid-template-columns: repeat(2, 2fr) !important;
+      }
+    .popupInquiry{display: block !important;}
+    .rashiRatnGrid{grid-template-columns: repeat(2, 2fr) !important;}
+    .secText {
+        padding: 10px;}
+    .secImg {
+        padding: 0px 25px 40px 25px;
+    }
+    .secSec{padding: 0;}
+    .myFooter .gridGooter{padding: 0 0 0 0;margin: 13px 0 0 0;}
+    .myFooter .footerBtn a{background:var(--main-color);}
+    .myHeading h2  {
+        font-size: 30px;
+        line-height: 40px;
+        }
+        .ofGod .myHeading h2 {
+            font-size: 30px;
+            line-height: 40px;
+            }
+            .panditJi .panditText h3{ font-size: 30px;
+                line-height: 40px;}
+    .panditJi {
+        padding: 18em 0px 0px;
+    }
+    .panditJi .pandiImg figure img{width: 70%;}
+    .panditJi .pandiImg figure{display: flex;justify-content: center;top: -11em;position: absolute;}
+    .panditJi .aboutSec::before{background:none;}
+    .myHeader .mainHeader .myNav ul{display: block;}
+    .myHeader .mainHeader .myNav ul li a{font-size: 20px; font-weight: 600;}
+
+    .myHeader .mainHeader{
+    align-items: center;
+}
+     .myNav {
+        width: 100%;
+        z-index: -99;
+        height: 100%;
+        position: relative;
+        background: #030b34;
+      }
+      .myNav:before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 0px 0px 130px;
+        z-index: -999999999;
+        background: var(--mainBg-color);
+      }
+       .myNav ul li {
+        padding: 0 0 32px 0;
+      }
+      .myNav ul li a {
+        padding: 0;
+        font-size: 27px;
+        font-weight: 300;
+      }
+     .myNav ul {
+        text-align: center;
+        padding: 0;
+        display: block;
+      }
+
+       .myNav {
+        padding: 35px;
+    
+        visibility: hidden;
+    
+        position: fixed;
+    
+        background-size: cover;
+    
+        top: 0;
+    
+        right: 100%;
+    
+        transition: 0.5s;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+        /* background: #fff; */
+    
+        z-index: 9;
+    
+        -webkit-transition: 0.5s;
+    
+        -moz-transition: 0.5s;
+    
+        -ms-transition: 0.5s;
+    
+        -o-transition: 0.5s;
+    
+        opacity: 0;
+    
+        display: block;
+    
+        background-repeat: no-repeat;
+      }
+       .myNav.active {
+        visibility: visible;
+    
+        opacity: 1;
+    
+        right: 0;
+      }
+     .myNav .closeMe .hideMe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        margin: 25px 0px;
+        background: no-repeat;
+        border: none;
+      }
+      .myNav .closeMe {
+        left: 0;
+        position: absolute;
+        bottom: 20px;
+        display: flex;
+        width: 100%;
+        justify-content: center;}
+      .myNav .closeMe .hideMe img{
+    width: 31px;
+    object-fit: cover;}
+    .resp .respInquiry{
+    width: 100%;}
+    .respInquiry{display: block !important;}
+    .formInquiry{
+    display: none;}
+    .myFooter::before{display: none;}
+    .navbar{display: none;}
+    .ourServices .serviceGrid{grid-template-columns: repeat(2, 2fr);}
+    .consultUs .gridConsult{grid-template-columns: repeat(2, 2fr);}
+    .yantra .yantraGrid{grid-template-columns: repeat(2, 2fr);}
+}
+@media only screen and (min-width: 768px) {}
+@media only screen and (max-width: 767px) {
+    .consGridPage{grid-template-columns: repeat(2, 2fr) !important;}
+    .yantraPageGrid {
+        grid-template-columns: repeat(2, 2fr) !important;
+      }
+    .secSec .myHeading{text-align: center;margin: 0 0 0 0;}
+    .secText{padding: 25px;}
+    .secImg{padding: 0px 25px 40px 25px;}
+  
+    .headInq{top: 15px;}
+    .headerSlider .cardAstro {
+        padding: 0 0 0 25px;} 
+      .myFooter{
+    padding: 50px 10px 0 20px;}
+    .ofGod .ofGodText p{font-size: 16px; line-height: 26px;}
+    .ofGod .ofGodText{padding: 0px 25px;}
+    .ourServices .serviceGrid{padding: 0 25px;}
+   
+    .yantra .yantraGrid{padding: 0px 25px;}
+    .rashiPhal .rashiGrid {
+        grid-template-columns: repeat(3, 2fr); padding: 0px 25px;}
+    .rashiRatn .ratnGrid{padding: 0px 25px;}
+    .consultUs{padding: 0px 25px;}
+    .myFooter .gridGooter{grid-template-columns: repeat(1, 2fr);}}
+@media only screen and (max-width: 575px) {
+    .consGridPage{grid-template-columns: repeat(1, 2fr) !important;}
+    .yantraPageGrid {
+        grid-template-columns: repeat(1, 2fr) !important;
+      }
+    .rashiRatnGrid{grid-template-columns: repeat(1, 2fr)!important }
+    .ofGod .myHeading{padding: 0 25px 0 25px;}
+    .myFooter .footerBtn {
+        margin: 15px 0 0 0;
+    }
+    .headerSlider .cardAstro .numCard figure img{width: 74%;}
+    .headerSlider .cardAstro h3{font-size: 42px; line-height: 42px;}
+    .ofGod{}
+    .panditJi .panditText {
+        padding: 12em 14px 30px 14px;
+    }
+    .headerSlider .cardAstro .numCard h6{font-size: 17px;}
+    .headerSlider .cardAstro .numCard{width: 75%;}
+    .headerSlider .bannerHeader figure img{height: 500px;} 
+  .ourServices .serviceGrid {
+        grid-template-columns: repeat(1, 2fr);}
+    .yantra .yantraGrid {
+        grid-template-columns: repeat(1, 2fr);}
+    .rashiRatn .ratnGrid {
+        grid-template-columns: repeat(1, 2fr);}
+    .rashiPhal .rashiGrid {
+        grid-template-columns: repeat(2, 2fr);
+        }
+    .consultUs .gridConsult {
+        grid-template-columns: repeat(1, 2fr);}
+@media only screen and (max-width: 479px) {
+    .headerSlider .cardAstro h3{font-size: 36px;line-height: 46px;}
+}
